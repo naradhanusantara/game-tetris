@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tetris Hybrid (PC & HP)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="score-board">Skor: <span id="score">0</span></div>
+    
+    <div id="game-container">
+        <canvas id="tetris" width="240" height="400"></canvas>
+    </div>
+
+    <div class="mobile-controls">
+        <button class="btn" id="left">⬅️</button>
+        <button class="btn" id="rotate">🔄</button>
+        <button class="btn" id="right">➡️</button>
+        <button class="btn" id="down">⬇️</button>
+    </div>
+
+    <div class="pc-hint">
+        Gunakan tombol Panah di Keyboard
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
